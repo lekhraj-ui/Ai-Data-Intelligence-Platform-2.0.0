@@ -1,0 +1,10 @@
+[
+  {"question": "Which algorithm is used for anomaly detection?", "expected_source": "fraud_detection.md", "keyword": "IsolationForest"},
+  {"question": "What features does feature engineering add?", "expected_source": "fraud_detection.md", "keyword": "log_amount"},
+  {"question": "How are documents chunked for RAG?", "expected_source": "rag_architecture.md", "keyword": "600"},
+  {"question": "What similarity measure ranks chunks in the vector store?", "expected_source": "rag_architecture.md", "keyword": "cosine"},
+  {"question": "What are the roles in the multi-agent system?", "expected_source": "agents.md", "keyword": "critic"},
+  {"question": "How does the router assign tools to sub-tasks?", "expected_source": "agents.md", "keyword": "router"},
+  {"question": "What does the CI pipeline run?", "expected_source": "deployment.md", "keyword": "pytest"},
+  {"question": "Where are Prometheus metrics exposed?", "expected_source": "deployment.md", "keyword": "/metrics"}
+]
